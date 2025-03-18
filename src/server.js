@@ -12,14 +12,10 @@ connectDB();
 const app = express();
 
 const corsOptions = {
-  origin: [
-    "http://localhost:3000",
-    "https://api-gestion-usuarios.onrender.com/",
-  ],
+  origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
-
 app.use(cors(corsOptions));
 app.use(express.json());
 
