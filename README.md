@@ -20,8 +20,8 @@ Nodemon (para desarrollo)
 
 1️⃣ Clonar el repositorio
 
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+[git clone https://github.com/tu-usuario/tu-repositorio.git](https://github.com/jcacuna/api-gestion-usuarios.git)
+
 
 2️⃣ Instalar dependencias
 
@@ -64,6 +64,15 @@ POST /api/usuarios
 }
 
 📖 Documentación con Swagger
+
+Para acceder a la documentación interactiva de Swagger:
+
+http://localhost:3000/api-docs
+
+
+📖 Deploy de la API
+
+https://api-gestion-usuarios.onrender.com/api-docs/
 
 Para acceder a la documentación interactiva de Swagger:
 
